@@ -1,4 +1,4 @@
-# Ethereum Basics
+# Ethereum Basics in 5 Minutes
 
 
 ---
@@ -119,7 +119,7 @@ Almost all smart contract L1 blockchains(Solana, Ethereum L2s[Polygon, Optimism 
 * [https://docs.soliditylang.org/en/latest/solidity-by-example.html](https://docs.soliditylang.org/en/latest/solidity-by-example.html)
 * [https://medium.com/@austin_48503/%EF%B8%8Fethereum-dev-speed-run-bd72bcba6a4c](https://medium.com/@austin_48503/%EF%B8%8Fethereum-dev-speed-run-bd72bcba6a4c)
 
-**TLDR:  **Solidity is #1.  Don’t learn Vyper or anything else unless you have a good reason
+**TLDR:** Solidity is #1.  Don’t learn Vyper or anything else unless you have a good reason
 
 
 ## **Dev Framework:**  Compile, test and deploy smart contracts
@@ -130,7 +130,7 @@ Almost all smart contract L1 blockchains(Solana, Ethereum L2s[Polygon, Optimism 
 * [Hardhat](https://hardhat.org/)
 * [Foundry](https://book.getfoundry.sh/)
 
-**TLDR:  **Helps your development workflow like deploying to testnet and testing your smart contract
+**TLDR:** Helps your development workflow like deploying to testnet and testing your smart contract
 
 
 ## **Node Provider:**  Allows you to talk to the blockchain without running your own node
@@ -141,7 +141,7 @@ Almost all smart contract L1 blockchains(Solana, Ethereum L2s[Polygon, Optimism 
 * [Alchemy](https://www.alchemy.com/)
 * [Quicknode](https://www.quicknode.com/)
 
-**TLDR:  **Helps you talk to the blockchain like Goerli, Ethereum testnet, or Ethereum mainnet.  Also, helps you talk to IPFS to store files and other things
+**TLDR:** Helps you talk to the blockchain like Goerli, Ethereum testnet, or Ethereum mainnet.  Also, helps you talk to IPFS to store files and other things
 
 
 ## **Base Implementations:**  Don’t start from scratch.  Use battle-tested smart contract templates as a starting point.
@@ -152,12 +152,10 @@ Almost all smart contract L1 blockchains(Solana, Ethereum L2s[Polygon, Optimism 
 * [ERC-20](https://docs.openzeppelin.com/contracts/4.x/erc20):  Basic token i.e. Basic Attention Token, BAT or any token on Ethereum
 * [ERC-721](https://docs.openzeppelin.com/contracts/4.x/erc721) or [ERC-1155](https://docs.openzeppelin.com/contracts/4.x/erc1155):  Non-fungible Tokens, NFTs
 
-**TLDR:  **Industry standard, secure implementations of tokens and NFTs and other common contracts to build on.
+**TLDR:** Industry standard, secure implementations of tokens and NFTs and other common contracts to build on.
 
 
 ## **Smart Contract Testing and Auditing:**  Test your contract for vulnerabilities so you don’t get rekt
-
-
 
 * Manual Audits:  Have experts review your contract:  [https://www.openzeppelin.com/security-audits](https://www.openzeppelin.com/security-audits)
 * Automated Tests:  Test your codes functions as intended:  [https://trufflesuite.com/docs/truffle/how-to/debug-test/write-tests-in-solidity/](https://trufflesuite.com/docs/truffle/how-to/debug-test/write-tests-in-solidity/)
@@ -176,7 +174,6 @@ Almost all smart contract L1 blockchains(Solana, Ethereum L2s[Polygon, Optimism 
 ## Front-end UI frameworks:  Ethereum dapps, decentralized applications use the same front-end technologies as other web apps.  HTML, CSS, Javascript, [ReactJS](https://react.dev/), [Tailwind](https://tailwindcss.com/)
 
 
-
 * There are tons of existing tutorials on how to do front-end development for building UIs if that is your focus
 * Learn this first if you are a new developer
 
@@ -184,13 +181,11 @@ Almost all smart contract L1 blockchains(Solana, Ethereum L2s[Polygon, Optimism 
 ## Ethereum Client Library:  Allows your Front-end UI to talk to your wallet and the blockchain
 
 
-
 * [https://docs.web3js.org/](https://docs.web3js.org/)
 * [https://docs.ethers.org/v6/](https://docs.ethers.org/v6/)
 
 
 ## Wallet:  Browser plugin or mobile app that contains a browser to view dapps and also contains your private key to sign transactions
-
 
 
 * [Metamask](https://metamask.io/)
@@ -206,8 +201,6 @@ Basic building blocks(financial legos) for building DeFi applications.
 
 ## Stablecoins:  [https://ethereum.org/en/stablecoins/](https://ethereum.org/en/stablecoins/)
 
-
-
 * ERC-20 token pegged to fiat currency like USD or EURO
 * Can be pegged to a basket of currencies i.e. 25% USD, 25% EURO, 25% YEN, 25% YUAN
 * Provides trading pair for cryptocurrencies on DEXs i.e. ETH/USDC or ETH/DAI
@@ -218,20 +211,16 @@ Basic building blocks(financial legos) for building DeFi applications.
 * International transfers and remittance
 
 
-### **Types of Stablecoins**
+### Types of Stablecoins
 
 **Fiat-backed**
-
-
 
 * Example:  [USDC](https://www.circle.com/en/usdc)
 * 100% Backed by USD cash and Treasuries 
 * Monthly audits:  [https://www.circle.com/hubfs/USDCAttestationReports/2023/2023%20USDC_Circle%20Examination%20Report%20May%202023.pdf](https://www.circle.com/hubfs/USDCAttestationReports/2023/2023%20USDC_Circle%20Examination%20Report%20May%202023.pdf)
 * Centralized and run by Circle corporation
 
-**Crypto-Collateralized **
-
-
+**Crypto-Collateralized**
 
 * Example: [DAI](https://makerdao.com/en/)
 * Overcollateralized i.e. if the price of ETH drops a lot there’s a big buffer that there’s still enough ETH to back the DAI
@@ -241,10 +230,7 @@ Basic building blocks(financial legos) for building DeFi applications.
 
 Don’t mess with algorithmic stablecoins.  RIP TERRA & UST
 
-
 ## Money Markets(Liquidity Protocols):  [https://docs.aave.com/hub/](https://docs.aave.com/hub/)
-
-
 
 * Examples:  [Aave](https://aave.com/), [Compound](https://compound.finance/)
 * Allow you to deposit crypto to earn interest(yield)
@@ -265,21 +251,8 @@ Don’t mess with algorithmic stablecoins.  RIP TERRA & UST
 
 ## Decentralized Exchanges(DEXs):  [https://docs.uniswap.org/concepts/overview](https://docs.uniswap.org/concepts/overview)
 
-
-
 * Examples: [Uniswap](https://docs.uniswap.org/concepts/overview)
 * Allows swaps of asset pairs without centralized order box and matching engine
 
-## Solidity Code Examples
 
-Primitive Data Types
-Here we introduce you to some primitive data types available in Solidity.
-
-boolean
-uint256
-int256
-address
-
-Primitives.sol
-
-<script src="https://gist.github.com/anataliocs/38015973c62dfcbe08c50946115a406a.js"></script>
+Next Page: [Solidity Primitives](https://anataliocs.github.io/web3-skill-tree/solidity-primitives)
